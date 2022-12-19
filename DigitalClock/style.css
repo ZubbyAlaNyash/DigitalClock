@@ -1,0 +1,85 @@
+@font-face{
+	/*Installed the font in a separate folder*/
+	font-family: calibri;
+	src: url(../font/Calibri.ttf);
+}
+body{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	justify-content: center;
+	background-color: rgb(255, 99, 71);
+}
+h2{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 2.6rem;
+	margin-bottom: 90px;
+	text-shadow: 3px 3px rgba(120, 120, 120, 0.7);
+}
+.clock{
+	font-family: calibri;
+	text-align: center;
+}
+.clock{
+	display: flex;
+}
+.clock div{
+	margin: 5px;
+}
+.clock span{
+	width: 100px;
+	height: 80px;
+	background: slateblue;
+	opacity: 80%; /* The Transparency  */
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	text-shadow: 2px /*Horizontal Shadow*/ 2px/*Vertical Shadow*/ 4px/*Blur Radius*/ rgba(0, 0, 0,/*Black color*/ 0.8/*Opacity*/);
+}
+.clock .text{
+	font-size: 18px;
+	height: 30px;
+	letter-spacing: 1.7px;
+	background: rgb(255, 0, 0);
+}
+#ampm{
+	background: rgb(255, 0, 0);
+}
+#hours, #minutes, #seconds{
+	background: rgb(255, 99, 71);
+}
+.round{
+	border: 2px solid orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
